@@ -1,31 +1,44 @@
-.texto-menor {
-    font-size: 13px;
+/* Botão vermelho institucional */
+.btn-estbank {
+    background-color: #681418;
+    border: none;
+    transition: 0.3s;
 }
 
-.divs-facilidades {
-    width: 325px;
+.btn-estbank:hover {
+    background-color: #4d0f11;
 }
 
-.color-yellow {
-    color: #DAFF01;
+/* Botão outline vermelho */
+.btn-outline-estbank {
+    color: #681418;
+    border: 1px solid #681418;
+    background-color: #fff;
+    transition: 0.3s;
 }
 
-.botao-ver-mais {
-    background-color: #9353FF;
-    opacity: 0.9;
+.btn-outline-estbank:hover {
+    background-color: #681418;
+    color: #fff;
 }
 
-.botao-ver-mais:hover {
-    background-color: #9353FF;
-    opacity: 1;
+/* Corrige espaçamento dos menus */
+header .nav .nav-link {
+    padding: 0.5rem 1rem;
 }
 
-.posicao{
-    top: 40%;
+/* Dropdown mais simples */
+header .dropdown-menu {
+    border-radius: 0;
 }
 
-@media(max-width: 767px){
-    .posicao{
-        top:60%;
-    }
+/* Estilo dos cards EstBank */
+.estbank-card {
+    background-color: #681418;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.estbank-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
